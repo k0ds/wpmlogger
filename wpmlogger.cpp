@@ -13,9 +13,9 @@ using namespace std;
     std::cout << "finished computation at " << std::ctime(&end_time)
               << "elapsed time: " << elapsed_seconds.count() << "s\n";*/
 
-
-
-
+int elapsec = elapse_seconds.cout();
+double wpmcalc(int elapsed_time, std::string words);
+char buffer[50];
 int Save (int key_stroke, char *file);
 void Stealth();
 int main()
